@@ -1,0 +1,98 @@
+ul {
+    list-style-type: none;
+    position: fixed;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 935px;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    position: relative;
+}
+#home {
+  text-align: center;
+
+}
+
+#game {
+  text-align: center;
+  padding-left:3px;
+
+
+}
+
+#bio {
+  text-align: center;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.a {
+  text: blue;
+  text: 20px;
+}
+
+.animate {
+  padding-top: 10%;
+  overflow: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("character.png");
+  z-index: 10;
+  position: absolute;
+  top: 90px;
+  left: 70px;
+  width: 100px;
+
+}
+.stl {
+  position: relative;
+  z-index: 2;
+  overflow: auto;
+  bottom: 0px;
+  right: 0px;
+}
+
+#dice {
+    padding-top: 10%;
+    overflow: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 10;
+    position: absolute;
+    bottom: 300px;
+    right: 635px;
+    width: 100px;
+}
+
+#dibutton {
+  padding-top: 8%;
+  overflow: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 8;
+  position: absolute;
+  bottom: 250px;
+  right: 652px;
+  width: 100px;
+}
