@@ -1,0 +1,105 @@
+ul {
+    list-style-type: none;
+    position: fixed;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 935px;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    position: relative;
+}
+#home {
+  text-align: center;
+
+}
+
+#game {
+  text-align: center;
+
+
+}
+
+#bio {
+  text-align: center;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.a {
+  text: blue;
+  text: 20px;
+}
+
+#text {
+  font-size: 30px;
+  text-align: center;
+  color:white
+}
+body {
+  background-image:url(https://images.unsplash.com/photo-1485745492261-a3819c494d11?ixlib=rb-0.3.5&s=c1908a448dedac0bdeedf34af6a30fb4&auto=format&fit=crop&w=1350&q=80);
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#start-button {
+  border-radius: 5px;
+  background-color: #FF0000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: 5%
+}
+
+#start-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#start-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#start-button:hover span {
+  padding-right: 25px;
+}
+
+#start-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
