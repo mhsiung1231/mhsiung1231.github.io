@@ -1,0 +1,296 @@
+ul {
+    list-style-type: none;
+    position: fixed;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 935px;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    position: relative;
+}
+
+* {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+#h1 {
+  padding-top: 20%;
+  font-size: 20px;
+  color: white;
+}
+#h2 {
+  font-size: 20px;
+}
+
+#nav {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0,0,0,.5);
+  z-index: 99;
+  font-size: 50px;
+  background-color: red
+
+}
+
+.body {
+background-color: #000080;
+}
+
+.sect {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.subSection {
+  height: 100%;
+  background-color: #000080;
+  color: white;
+}
+
+#im {
+  height: 100%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-left:0px;
+  margin-right:0px;
+}
+
+#mis {
+  font-family: 'Economica', sans-serif;
+  height: 100%;
+  background-color: rgb(52, 88, 199);
+  color: rgb(255, 255, 255);
+  margin-left:0px;
+  margin-right:0px;
+  padding-left:10px;
+  padding-bottom:0px;
+  color: white;
+
+}
+
+#mispara {
+  font-family: 'Economica', sans-serif;
+  font-size: 22px;
+  text-align: left;
+  letter-spacing: 5px;
+  position: absolute;
+  margin-right: 640px;
+  color: white;
+  margin-left: 20px;
+
+}
+#mispara2 {
+  font-family: 'Economica', sans-serif;
+  font-size: 22px;
+  letter-spacing: 5px;
+  text-align: left;
+  position: absolute;
+  margin-top: 250px;
+  margin-right: 640px;
+  color: white;
+  margin-left: 20px;
+
+}
+#statue {
+  position: absolute;
+  margin-left: 900px;
+  text-align: right;
+  border-color: rgb(52, 88, 199);
+  border: 10px;
+}
+
+#MAP {
+  color: black;
+  text-align: center;
+  padding-top: 25%;
+  font-size: 90px;
+  text-shadow: 3px 2px white;
+}
+#sect1 {
+  font-family: 'Paprika', sans-serif;
+  padding-bottom:25%;
+  overflow: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("hands.jpg");
+}
+
+#sect2 {
+  font-family: 'Paprika', sans-serif;
+  text-shadow: 5px 5px white;
+  font-size: 70px;
+  padding-top:200px;
+  padding-bottom:20%;
+  overflow: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("Ellis.jpg");
+  text-align: center;
+  color: #000080;
+
+}
+/*White space--pic of us above about us*/
+
+#sect3 {
+  font-family: 'Paprika', sans-serif;
+  font-size: 70px;
+  padding-top:40%;
+  padding-bottom:40%;
+  overflow: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+  color: white;
+  background-image: url("IMG_6056.JPG");
+  text-shadow: 5px 5px #000080;
+
+}
+#subsect1 {
+  padding-top: 5%;
+  height: 100%;
+  padding-bottom: 50%;
+  background-color: #000080;
+  color: white;
+}
+
+/*Importance & Sig*/
+#subsect2 {
+  padding-top: 5%;
+  padding-bottom: 60%;
+  height: 100%;
+  background-color: #000080;
+  color: white;
+}
+
+
+/*Who We are*/
+#subsect3 {
+  padding-top: 5%;
+  padding-bottom: 40%;
+  height: 100%;
+  background-color: #000080;
+  color: white;
+}
+
+
+#imp {
+  font-family: 'Economica', sans-serif;
+  font-size: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+  position: absolute;
+  color: white;
+  /*margin-left: 20px;
+  padding-bottom: 40px;
+*/
+}
+
+#intro {
+  font-family: 'Economica', sans-serif;
+  font-size: 22px;
+  letter-spacing: 5px;
+  text-align: left;
+  position: absolute;
+  color: white;
+}
+
+#maxine {
+margin-right: 500px;
+}
+
+#m {
+  position: absolute;
+  margin-left: 800px;
+  text-align: right;
+
+}
+
+#corina {
+  margin-right: 500px;
+}
+
+#katie {
+margin-right: 500px;
+}
+
+#amy{
+margin-right: 500px;
+}
+
+#elis {
+  position: absolute;
+  margin-top: 2000px;
+}
+
+#importancequote {
+  font-family: 'Allan', cursive;
+  font-size: 30px;
+  text-align: left;
+  position: absolute;
+  margin-top: 250px;
+  margin-right: 640px;
+  color: rgb(52, 88, 199);
+}
+
+
+ul {
+    list-style-type: none;
+    position: fixed;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 935px;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    position: relative;
+}
+#home {
+  text-align: center;
+}
+
+#game {
+  text-align: center;
+  padding-left:3px;
+}
+
+#bio {
+  text-align: center;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.a {
+  text: blue;
+  text: 20px;
+}
